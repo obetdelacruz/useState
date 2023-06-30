@@ -41,6 +41,48 @@ function FavoriteColor() {
         >
           Black
         </button>
+        <button
+          className="rounded-full bg-orange-500 h-40 w-3/4 text-white"
+          type="button"
+          onClick={() => handleColorChange("orange", setColor, setTextColor)}
+        >
+          Orange
+        </button>
+        <button
+          className="rounded-full bg-purple-500 h-40 w-3/4 text-white"
+          type="button"
+          onClick={() => handleColorChange("purple", setColor, setTextColor)}
+        >
+          Purple
+        </button>
+        <button
+          className="rounded-full bg-red-500 h-40 w-3/4 text-white"
+          type="button"
+          onClick={() => handleColorChange("red", setColor, setTextColor)}
+        >
+          Red
+        </button>
+        <button
+          className="rounded-full bg-green-500 h-40 w-3/4 text-white"
+          type="button"
+          onClick={() => handleColorChange("green", setColor, setTextColor)}
+        >
+          Green
+        </button>
+        <button
+          className="rounded-full bg-yellow-500 h-40 w-3/4 text-white"
+          type="button"
+          onClick={() => handleColorChange("yellow", setColor, setTextColor)}
+        >
+          Yellow
+        </button>
+        <button
+          className="rounded-full bg-magenta-500 h-40 w-3/4 text-white"
+          type="button"
+          onClick={() => handleColorChange("magenta", setColor, setTextColor)}
+        >
+          Magenta
+        </button>
       </div>
     </div>
   );

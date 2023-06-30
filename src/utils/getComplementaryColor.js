@@ -6,6 +6,18 @@ export function getComplementaryColor(color) {
       return "green";
     case "black":
       return "white";
+    case "orange":
+      return "yellow";
+    case "purple":
+      return "blue";
+    case "red":
+      return "pink";
+    case "green":
+      return "black";
+    case "yellow":
+      return "gray";
+    case "magenta":
+      return "gray";
     default:
       return "";
   }
